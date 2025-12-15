@@ -34,10 +34,3 @@ export enum EducationalLevel {
   FUNDAMENTAL = 'fundamental',
   MEDIO = 'medio'
 }
-
-export interface ChatMessage {
-  id: string;
-  role: 'user' | 'model';
-  text: string;
-  timestamp: Date;
-}
