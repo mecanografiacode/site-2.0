@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Check, Download, AlertCircle, ChevronDown, Calendar, ArrowRight } from 'lucide-react';
+import { FileText, Check, Download, ChevronDown, ArrowRight } from 'lucide-react';
 
 const Admissions: React.FC = () => {
     const [formData, setFormData] = useState({

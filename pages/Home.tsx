@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Calendar, Star, MapPin, ChevronRight, Play } from 'lucide-react';
+import { ArrowRight, Calendar, Star, MapPin, ChevronRight, Play } from 'lucide-react';
 import { TESTIMONIALS, NEWS, EVENTS, DIFFERENTIALS } from '../constants';
 
 const Home: React.FC = () => {

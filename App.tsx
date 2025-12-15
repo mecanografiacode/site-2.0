@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Education from './pages/Education';
 import Admissions from './pages/Admissions';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock } from 'lucide-react';
 
 // Contact Page Component
 const Contact = () => (

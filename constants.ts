@@ -1,5 +1,5 @@
 import { NavItem, Testimonial, NewsItem, EventItem } from './types';
-import { BookOpen, Users, Trophy, Rocket, GraduationCap, Microscope, Palette, BrainCircuit } from 'lucide-react';
+import { Users, Trophy, Microscope, BrainCircuit } from 'lucide-react';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', path: '/' },
