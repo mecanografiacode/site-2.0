@@ -7,7 +7,7 @@ interface LogoProps {
 export const Logo: React.FC<LogoProps> = ({ className }) => {
   return (
     <img 
-      src="/logo.png" 
+      src="https://i.imgur.com/LESvkxT.png" 
       alt="Colégio Reação" 
       className={className}
     />
