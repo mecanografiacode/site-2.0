@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { NAV_ITEMS } from '../constants';
+import { Logo } from './Logo';
 
 const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -36,13 +37,9 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           
-          {/* LOGO SECTION - Using local file in public folder */}
+          {/* LOGO SECTION - Using dynamic SVG component */}
           <NavLink to="/" className="flex items-center group">
-            <img 
-              src="/logo.png"
-              alt="Colégio Reação" 
-              className="h-14 md:h-16 w-auto hover:scale-105 transition-transform duration-300 object-contain" 
-            />
+            <Logo className="h-14 md:h-16 w-auto hover:scale-105 transition-transform duration-300" />
           </NavLink>
 
           {/* Desktop Menu */}

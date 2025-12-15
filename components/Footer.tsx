@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Logo } from './Logo';
 
 const Footer: React.FC = () => {
   return (
@@ -12,11 +13,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="mb-6">
                 <div className="bg-white p-3 rounded-lg inline-block shadow-lg">
-                    <img 
-                      src="/logo.png"
-                      alt="Colégio Reação" 
-                      className="h-10 w-auto object-contain" 
-                    />
+                    <Logo className="h-10 w-auto" />
                 </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
