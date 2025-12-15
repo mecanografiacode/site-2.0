@@ -11,7 +11,8 @@ export default defineConfig(({ mode }) => {
     },
     publicDir: 'public',
     define: {
-      'process.env.API_KEY': JSON.stringify(env.API_KEY)
+      // Safely replace process.env.API_KEY with the string value or undefined
+      'process.env.API_KEY': JSON.stringify(env.API_KEY),
     }
   }
 })
